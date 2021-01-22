@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  border-bottom:3px solid gray;
+  padding:20px;
+  margin:0;
+}
+a {
+
+}
+ol {
+  border-right:3px solid gray;
+  width:120px;
+  margin:0;
+  padding:20px;
+}
+#gr {
+  display:grid;
+  grid-template-columns: 200px 1fr;
+}
+#article {
+  display:grid;
+}
+@media(max-width:800px){
+  #gr {
+    display:block;
+  }
+  ol {
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
